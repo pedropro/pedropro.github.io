@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Pedro F. Proença</title>
+    <link>https://pedropro.github.io/project/</link>
+    <description>Recent content in Projects on Pedro F. Proença</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 31 May 2019 18:37:52 +0100</lastBuildDate>
+    
+	<atom:link href="https://pedropro.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Urso: Unreal Rendered Spacecraft On-Orbit</title>
+      <link>https://pedropro.github.io/project/urso/</link>
+      <pubDate>Fri, 31 May 2019 18:37:52 +0100</pubDate>
+      
+      <guid>https://pedropro.github.io/project/urso/</guid>
+      <description> Coming Soon </description>
+    </item>
+    
+    <item>
+      <title>Visual Odometry for Structured Environments</title>
+      <link>https://pedropro.github.io/project/vo/</link>
+      <pubDate>Fri, 31 May 2019 18:37:52 +0100</pubDate>
+      
+      <guid>https://pedropro.github.io/project/vo/</guid>
+      <description> Coming Soon   -- </description>
+    </item>
+    
+  </channel>
+</rss>

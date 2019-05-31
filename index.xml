@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pedro F. Proença</title>
+    <link>https://pedropro.github.io/</link>
+    <description>Recent content on Pedro F. Proença</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 31 May 2019 18:37:52 +0100</lastBuildDate>
+    
+	    <atom:link href="https://pedropro.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Urso: Unreal Rendered Spacecraft On-Orbit</title>
+      <link>https://pedropro.github.io/project/urso/</link>
+      <pubDate>Fri, 31 May 2019 18:37:52 +0100</pubDate>
+      
+      <guid>https://pedropro.github.io/project/urso/</guid>
+      <description>
+
+&lt;h1 id=&#34;coming-soon&#34;&gt;Coming Soon&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Visual Odometry for Structured Environments</title>
+      <link>https://pedropro.github.io/project/vo/</link>
+      <pubDate>Fri, 31 May 2019 18:37:52 +0100</pubDate>
+      
+      <guid>https://pedropro.github.io/project/vo/</guid>
+      <description>
+
+&lt;h2 id=&#34;coming-soon&#34;&gt;Coming Soon&lt;/h2&gt;
+
+&lt;!-- Zero-drift by combining visual odometry with model tracking
+
+A mesh model extruded from a floor plan is rendered through OpenGL for model alignment/tracking with planes and lines while frame-2-frame VO is used for smoothing. Green lines correspond to the mesh edges. Notice how pose errors are corrected.
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/vMsV04emXHU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+ --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fast Cylinder and Plane Extraction from Depth Cameras for Visual Odometry</title>
+      <link>https://pedropro.github.io/publication/cape/</link>
+      <pubDate>Fri, 31 May 2019 14:33:10 +0100</pubDate>
+      
+      <guid>https://pedropro.github.io/publication/cape/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Probabilistic RGB-D Odometry based on Points, Lines and Planes Under Depth Uncertainty</title>
+      <link>https://pedropro.github.io/publication/ras_18_paper/</link>
+      <pubDate>Sat, 10 Mar 2018 14:33:10 +0100</pubDate>
+      
+      <guid>https://pedropro.github.io/publication/ras_18_paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SPLODE: Semi-Probabilistic Point and Line Odometry with Depth Estimation from RGB-D Camera Motion</title>
+      <link>https://pedropro.github.io/publication/splode/</link>
+      <pubDate>Thu, 14 Dec 2017 14:33:10 +0100</pubDate>
+      
+      <guid>https://pedropro.github.io/publication/splode/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
