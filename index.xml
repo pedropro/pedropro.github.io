@@ -12,19 +12,30 @@
     
     
     <item>
-      <title>Urso: Unreal Rendered Spacecraft On-Orbit</title>
+      <title>URSO</title>
       <link>https://pedropro.github.io/project/urso/</link>
       <pubDate>Fri, 31 May 2019 18:37:52 +0100</pubDate>
       
       <guid>https://pedropro.github.io/project/urso/</guid>
-      <description>
+      <description>&lt;p align=&#34;justify&#34;&gt;
+URSO (Unreal Rendered Spacecraft On-Orbit) is a simulator built on Unreal Engine 4 to render photorealistic images of spacecrafts orbiting the earth, that
+can be used to learn and evaluate spacecraft pose estimation, tracking and detection algorithms.
+&lt;/p&gt;
 
-&lt;h1 id=&#34;coming-soon&#34;&gt;Coming Soon&lt;/h1&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/hU-_4zQUz3Q&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allow fullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;
+Spacecraft pose estimation is an important task to on-orbit proximity maneuvers in rendezvous/docking and servicing operations, but also future space debris removal missions. While this has been mostly addressed by using classic computer vision techniques based on edge-models, these methods are not robust to the challenging lighting conditions of space and the earth background. Therefore, I have been training instead deep learning models on URSO datasets for these tasks and investigating how to better transfer these to real space imagery. Below, you can see some results of these experiments.
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/x8IbxmOz730&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Visual Odometry for Structured Environments</title>
+      <title>Visual Odometry</title>
       <link>https://pedropro.github.io/project/vo/</link>
       <pubDate>Fri, 31 May 2019 18:37:52 +0100</pubDate>
       
@@ -50,6 +61,26 @@ A mesh model extruded from a floor plan is rendered through OpenGL for model ali
       
       <guid>https://pedropro.github.io/publication/cape/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>TACO</title>
+      <link>https://pedropro.github.io/project/taco/</link>
+      <pubDate>Thu, 31 May 2018 18:37:52 +0100</pubDate>
+      
+      <guid>https://pedropro.github.io/project/taco/</guid>
+      <description>
+
+&lt;h2 id=&#34;coming-soon&#34;&gt;Coming Soon&lt;/h2&gt;
+
+&lt;!-- Zero-drift by combining visual odometry with model tracking
+
+A mesh model extruded from a floor plan is rendered through OpenGL for model alignment/tracking with planes and lines while frame-2-frame VO is used for smoothing. Green lines correspond to the mesh edges. Notice how pose errors are corrected.
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/vMsV04emXHU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+ --&gt;
+</description>
     </item>
     
     <item>

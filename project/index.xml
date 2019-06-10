@@ -12,21 +12,30 @@
     
     
     <item>
-      <title>Urso: Unreal Rendered Spacecraft On-Orbit</title>
+      <title>URSO</title>
       <link>https://pedropro.github.io/project/urso/</link>
       <pubDate>Fri, 31 May 2019 18:37:52 +0100</pubDate>
       
       <guid>https://pedropro.github.io/project/urso/</guid>
-      <description> Coming Soon </description>
+      <description>Photorealistic rendering and deep learning for spacecraft pose estimation</description>
     </item>
     
     <item>
-      <title>Visual Odometry for Structured Environments</title>
+      <title>Visual Odometry</title>
       <link>https://pedropro.github.io/project/vo/</link>
       <pubDate>Fri, 31 May 2019 18:37:52 +0100</pubDate>
       
       <guid>https://pedropro.github.io/project/vo/</guid>
-      <description> Coming Soon   -- </description>
+      <description>Visual Odometry for Man-made Environments</description>
+    </item>
+    
+    <item>
+      <title>TACO</title>
+      <link>https://pedropro.github.io/project/taco/</link>
+      <pubDate>Thu, 31 May 2018 18:37:52 +0100</pubDate>
+      
+      <guid>https://pedropro.github.io/project/taco/</guid>
+      <description>Trash Annotations in Context Dataset</description>
     </item>
     
   </channel>
