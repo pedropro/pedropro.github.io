@@ -23,7 +23,7 @@ can be used to learn and evaluate spacecraft pose estimation, tracking and detec
 &lt;/p&gt;
 
 &lt;p align=&#34;center&#34;&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/hU-_4zQUz3Q&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allow fullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/hU-_4zQUz3Q&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/p&gt;
 &lt;p align=&#34;justify&#34;&gt;
 Spacecraft pose estimation is an important task to on-orbit proximity maneuvers in rendezvous/docking and servicing operations, but also future space debris removal missions. While this has been mostly addressed by using classic computer vision techniques based on edge-models, these methods are not robust to the challenging lighting conditions of space and the earth background. Therefore, I have been training instead deep learning models on URSO datasets for these tasks and investigating how to better transfer these to real space imagery. Below, you can see some results of these experiments.
@@ -40,9 +40,27 @@ Spacecraft pose estimation is an important task to on-orbit proximity maneuvers 
       <pubDate>Fri, 31 May 2019 18:37:52 +0100</pubDate>
       
       <guid>https://pedropro.github.io/project/vo/</guid>
-      <description>
-
-&lt;h2 id=&#34;coming-soon&#34;&gt;Coming Soon&lt;/h2&gt;
+      <description>&lt;p align=&#34;justify&#34;&gt;
+During my PhD, I developed several methods to extract and use geometric entities such as line segments, planes and cylinders for RGB-D odometry, which proved to yield robustness to textureless surfaces, motion blur and missing/noisy depth measurements. The video below summarizes well the localization results of using my system with feature points, lines and planes.
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/Y0T2_ghlng0&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;
+This works remarkably well for a frame-to-frame method, but what happens when instead of planes, the scene is made of curved surfaces, e.g., tunnels and pipelines? Well, It turns out that the employed plane extraction method actually deteriorates the visual odometry performance. Therefore, I developed CAPE, a plane and cylinder extraction method that is curve-aware and 4-10 faster than state-of-the-art. For all scenes shown in the video below, CAPE improves the VO performance.
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/FPFPVwm_yq0&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Now, typically one would reduce the drift by extending this work to full SLAM, however there is another way. We can use instead these geometric primitives to do model tracking if we have an accurate floor plan of a building. I have done some preliminary experiments, as shown below, of combining frame-to-frame visual odometry with model tracking by extruding a mesh model from a floor plan and render this in real time through OpenGL. The green lines correspond to the edges of the rendered model.
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/vMsV04emXHU&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Why should I do that: (i) zero-drift navigation without backend optimization, (ii) meaningful pose information, i.e., relative to the physical space.
+&lt;/p&gt;
 
 &lt;!-- Zero-drift by combining visual odometry with model tracking
 

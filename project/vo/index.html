@@ -452,9 +452,27 @@
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      
-
-<h2 id="coming-soon">Coming Soon</h2>
+      <p align="justify">
+During my PhD, I developed several methods to extract and use geometric entities such as line segments, planes and cylinders for RGB-D odometry, which proved to yield robustness to textureless surfaces, motion blur and missing/noisy depth measurements. The video below summarizes well the localization results of using my system with feature points, lines and planes.
+</p>
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y0T2_ghlng0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+<p align="justify">
+This works remarkably well for a frame-to-frame method, but what happens when instead of planes, the scene is made of curved surfaces, e.g., tunnels and pipelines? Well, It turns out that the employed plane extraction method actually deteriorates the visual odometry performance. Therefore, I developed CAPE, a plane and cylinder extraction method that is curve-aware and 4-10 faster than state-of-the-art. For all scenes shown in the video below, CAPE improves the VO performance.
+</p>
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FPFPVwm_yq0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+<p>
+Now, typically one would reduce the drift by extending this work to full SLAM, however there is another way. We can use instead these geometric primitives to do model tracking if we have an accurate floor plan of a building. I have done some preliminary experiments, as shown below, of combining frame-to-frame visual odometry with model tracking by extruding a mesh model from a floor plan and render this in real time through OpenGL. The green lines correspond to the edges of the rendered model.
+</p>
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vMsV04emXHU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+<p>
+Why should I do that: (i) zero-drift navigation without backend optimization, (ii) meaningful pose information, i.e., relative to the physical space.
+</p>
 
 <!-- Zero-drift by combining visual odometry with model tracking
 
