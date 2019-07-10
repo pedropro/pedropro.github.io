@@ -6,10 +6,20 @@
     <description>Recent content on Pedro F. Proença</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 May 2019 18:37:52 +0100</lastBuildDate>
+    <copyright>&amp;copy; Pedro F. Proença</copyright>
+    <lastBuildDate>Wed, 10 Jul 2019 14:33:10 +0100</lastBuildDate>
     
 	    <atom:link href="https://pedropro.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Deep Learning for Spacecraft Pose Estimation from Photorealistic Rendering</title>
+      <link>https://pedropro.github.io/publication/urso/</link>
+      <pubDate>Wed, 10 Jul 2019 14:33:10 +0100</pubDate>
+      
+      <guid>https://pedropro.github.io/publication/urso/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>URSO</title>
@@ -17,19 +27,39 @@
       <pubDate>Fri, 31 May 2019 18:37:52 +0100</pubDate>
       
       <guid>https://pedropro.github.io/project/urso/</guid>
-      <description>&lt;p align=&#34;justify&#34;&gt;
-URSO (Unreal Rendered Spacecraft On-Orbit) is a simulator built on Unreal Engine 4 to render photorealistic images of spacecrafts orbiting the earth, that can be used to learn and evaluate spacecraft pose estimation, tracking and detection algorithms. Datasets will be released very soon.
+      <description>
+
+&lt;p align=&#34;justify&#34;&gt;
+&lt;i&gt;
+URSO (Unreal Rendered Spacecraft On-Orbit) is a simulator built on Unreal Engine 4 to render photorealistic images of spacecrafts orbiting the earth, which can be used to learn and evaluate spacecraft pose estimation, tracking and detection algorithms.&lt;/i&gt;
 &lt;/p&gt;
 
 &lt;p align=&#34;center&#34;&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/hU-_4zQUz3Q&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/p&gt;
-&lt;p align=&#34;justify&#34;&gt;
-Spacecraft pose estimation is an important task to on-orbit proximity maneuvers in rendezvous/docking and servicing operations, but also future space debris removal missions. While this has been mostly addressed by using classic computer vision techniques based on edge-models, these methods are not robust to the challenging lighting conditions of space and the earth background. Therefore, I have been training instead deep learning models on URSO datasets for these tasks and investigating how to better transfer these to real space imagery. Below, you can see some results of these experiments.
+
+&lt;p&gt;
+This work is part of: &lt;/br&gt;
+&lt;small&gt;
+P. Proença and Y. Gao, &lt;i&gt;Deep Learning for Spacecraft Pose Estimation from Photorealistic Rendering&lt;/i&gt;, arXiv:1907.04298, 2019.  &lt;/small&gt;
+&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://arxiv.org/abs/1907.04298&#34; rel=&#34;noopener&#34;&gt; PDF &lt;/a&gt;
+&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://doi.org/10.5281/zenodo.3279632&#34; rel=&#34;noopener&#34;&gt; Dataset&lt;/a&gt;
 &lt;/p&gt;
+
+&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
+
+&lt;p align=&#34;justify&#34;&gt;
+Spacecraft pose estimation is an important task to on-orbit proximity maneuvers in rendezvous/docking and servicing operations, but also future space debris removal missions. While this has been mostly addressed by using classic computer vision techniques based on edge-models and hand-engineered features, these methods are not robust to the challenging lighting conditions of space and the earth background. This was recently acknowledged by ESA and Stanford SLAB who joined forces to open a &lt;a href=&#34;https://kelvins.esa.int/&#34;&gt;competition&lt;/a&gt; to solve this problem using deep learning.&lt;/p&gt;
+
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+
+&lt;p&gt;&lt;p&gt;The video below gives a glimpse of how deep learning models trained on URSO datasets perform on real space imagery.&lt;/p&gt;
 &lt;p align=&#34;center&#34;&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/x8IbxmOz730&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/p&gt;
+&lt;p align=&#34;justify&#34;&gt;
+For more information and results check our paper. This is ongoing work, we plan to release more data and a version of the simulator in a near future.
+&lt;p&gt;&lt;/p&gt;
 </description>
     </item>
     

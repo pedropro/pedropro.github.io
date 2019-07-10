@@ -6,10 +6,20 @@
     <description>Recent content in Yang Gao on Pedro F. Proença</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Dec 2018 14:33:10 +0100</lastBuildDate>
+    <copyright>&amp;copy; Pedro F. Proença</copyright>
+    <lastBuildDate>Wed, 10 Jul 2019 14:33:10 +0100</lastBuildDate>
     
 	<atom:link href="https://pedropro.github.io/authors/yang-gao/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Deep Learning for Spacecraft Pose Estimation from Photorealistic Rendering</title>
+      <link>https://pedropro.github.io/publication/urso/</link>
+      <pubDate>Wed, 10 Jul 2019 14:33:10 +0100</pubDate>
+      
+      <guid>https://pedropro.github.io/publication/urso/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Fast Cylinder and Plane Extraction from Depth Cameras for Visual Odometry</title>
